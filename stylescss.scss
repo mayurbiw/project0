@@ -1,0 +1,38 @@
+$color: #ff6699;
+
+div {
+
+  ul {
+
+    li {
+      font-size: 14px;
+      color: $color;
+      }
+
+  }
+
+}
+
+%heading {
+  color: #b8b894;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.hob {
+  @extend %heading;
+  background-color: #e6e6e6;
+}
+
+.blogHeading {
+  @extend %heading;
+  background-color:#404040;
+}
+
+.booksheading {
+  @extend %heading;
+  background-color: #737373;
+}

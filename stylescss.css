@@ -1,0 +1,27 @@
+div ul li {
+  font-size: 14px;
+  color: #ff6699;
+}
+
+.booksheading, .blogHeading, .hob {
+  color: #b8b894;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.hob {
+  background-color: #e6e6e6;
+}
+
+.blogHeading {
+  background-color: #404040;
+}
+
+.booksheading {
+  background-color: #737373;
+}
+
+/*# sourceMappingURL=stylescss.css.map */

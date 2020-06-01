@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blogs</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="stylescss.css">
+    </head>
+    <body>
+      <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                  <nav class="topnav" id="myTopnav">
+                      <img src=".\Resources\Mayur khatri.jpg" alt="displaypic">
+                      <a href="index.html">Home</a>
+                      <a href="Hobbies.html" class="head">Hobbies</a>
+                      <a href="Blogs.html">Blogs</a>
+                      <a href="Books.html">Favorite Books</a>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                          <i id="menu" class="menu-accessibility"></i>
+                      </a>
+                  </nav>
+      </div>
+      </div>
+      </div>
+
+      <div>
+
+        <h1 class="hob">What I Love List-  </h1>
+
+
+        <ul>
+          <li><h1>Building things and using existing things to build new ones.</h1></li>
+          <li><h1>Netflix, youtube knows my preferences(what to watch) better than me.</h1></li>
+          <li><h1>Writing poetries for a person I Love.</h1></li>
+        </ul>
+
+      </div>
+
+
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+
+</body>
+</html>
